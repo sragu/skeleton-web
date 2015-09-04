@@ -33,7 +33,7 @@
       "minify": true
     }
   },
-   "standard": {
+  "standard": {
     "parser": "babel-eslint"
   }
 }
