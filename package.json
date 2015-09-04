@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jspm bundle-sfx lib/main"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,10 @@
       "babel": "npm:babel-core@^5.8.22",
       "babel-runtime": "npm:babel-runtime@^5.8.20",
       "core-js": "npm:core-js@^1.1.0"
+    },
+    "buildConfig": {
+      "transpileES6": true,
+      "minify": true
     }
   }
 }
