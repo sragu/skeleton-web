@@ -9,7 +9,7 @@ global.paths = {
   // HTML sources.
   'html': './src/*.html',
   // JS sources.
-  'js': './lib/**/*.js',
+  'js': './src/lib/**/*.js',
   // SASS sources.
   'sass': './src/scss/**/*.scss',
   // Image sources.

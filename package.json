@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jspm bundle-sfx lib/main",
+    "build": "jspm bundle-sfx src/lib/main",
     "lint": "gulp lint"
   },
   "author": "",
