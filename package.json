@@ -1,5 +1,5 @@
 {
-  "name": "web-new",
+  "name": "skeleton-web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^4.1.1",
     "gulp": "^3.9.0",
     "gulp-cached": "^1.1.0",
-    "gulp-eslint": "^1.0.0",
+    "gulp-standard": "^5.1.0",
     "jspm": "^0.16.2",
     "require-dir": "^0.3.0"
   },
@@ -31,5 +32,8 @@
       "transpileES6": true,
       "minify": true
     }
+  },
+   "standard": {
+    "parser": "babel-eslint"
   }
 }

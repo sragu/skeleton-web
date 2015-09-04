@@ -2,14 +2,16 @@
 
 var gulp = require('gulp');
 var cache = require('gulp-cached');
-var eslint = require('gulp-eslint');
+var standard = require('gulp-standard');
 
 // Lint JS.
 gulp.task('lintjs', function () {
   return gulp.src(global.paths.js)
     .pipe(cache('lintjs'))
-    .pipe(eslint())
-    .pipe(eslint.format());
+    .pipe(standard())
+    .pipe(standard.reporter('default', {
+      breakOnError: true
+    }));
 });
 
 // Lint all the things!
