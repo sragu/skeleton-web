@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "jspm bundle-sfx lib/main"
+    "build": "jspm bundle-sfx lib/main",
+    "lint": "gulp lint"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jspm": "^0.16.2"
+    "gulp": "^3.9.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-eslint": "^1.0.0",
+    "jspm": "^0.16.2",
+    "require-dir": "^0.3.0"
   },
   "jspm": {
     "directories": {},
