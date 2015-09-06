@@ -1,9 +1,5 @@
 'use strict';
 
-
-var gulp = require('gulp');
-var requireDir = require('require-dir');
-
 // Specify paths & globbing patterns for tasks.
 global.paths = {
   // HTML sources.
@@ -22,5 +18,8 @@ global.paths = {
   'dist': './dist'
 };
 
+// allows es6 for gulp task code
+require('babel/register');
+
 // Require all tasks in the 'gulp' folder.
-requireDir('./gulp', { recurse: false });
+require('require-dir')('./gulp', { recurse: false });
