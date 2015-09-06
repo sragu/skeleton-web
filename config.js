@@ -1,5 +1,6 @@
 System.config({
-  baseURL: "/",
+  // base url hack to support karma-jspm
+  baseURL: (typeof __karma__ !== "undefined") ? "base" : "/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {

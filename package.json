@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "build": "jspm bundle-sfx src/lib/main",
     "lint": "gulp lint"
   },
@@ -12,10 +12,16 @@
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^4.1.1",
+    "chai": "^3.2.0",
     "gulp": "^3.9.0",
     "gulp-cached": "^1.1.0",
     "gulp-standard": "^5.1.0",
     "jspm": "^0.16.2",
+    "karma": "^0.13.9",
+    "karma-chai": "^0.1.0",
+    "karma-jspm": "^2.0.1",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.1.1",
     "require-dir": "^0.3.0"
   },
   "jspm": {
