@@ -5,7 +5,7 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: 'src',
 
 
     // frameworks to use
@@ -19,8 +19,8 @@ module.exports = function(config) {
 
     jspm: {
       useBundles: true,
-      loadFiles: ['src/**/*.spec.js'],
-      serveFiles: ['src/lib/**/*.js']
+      loadFiles: ['**/*.spec.js'],
+      serveFiles: ['lib/**/*.js'],
     },
 
     // list of files / patterns to load in the browser

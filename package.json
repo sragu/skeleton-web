@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start",
-    "build": "jspm bundle-sfx src/lib/main",
-    "lint": "gulp lint"
+    "test": "gulp lint && karma start",
+    "start": "gulp connect"
   },
   "author": "",
   "license": "ISC",
@@ -15,17 +14,24 @@
     "chai": "^3.2.0",
     "gulp": "^3.9.0",
     "gulp-cached": "^1.1.0",
+    "gulp-connect": "^2.2.0",
     "gulp-standard": "^5.1.0",
     "jspm": "^0.16.2",
     "karma": "^0.13.9",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
     "karma-jspm": "^2.0.1",
     "karma-mocha": "^0.2.0",
     "karma-mocha-reporter": "^1.1.1",
     "require-dir": "^0.3.0"
   },
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "jspm": {
-    "directories": {},
+    "directories": {
+      "baseURL": "src"
+    },
     "dependencies": {
       "lodash": "npm:lodash@^3.10.1"
     },
@@ -33,13 +39,6 @@
       "babel": "npm:babel-core@^5.8.22",
       "babel-runtime": "npm:babel-runtime@^5.8.20",
       "core-js": "npm:core-js@^1.1.0"
-    },
-    "buildConfig": {
-      "transpileES6": true,
-      "minify": true
     }
-  },
-  "standard": {
-    "parser": "babel-eslint"
   }
 }

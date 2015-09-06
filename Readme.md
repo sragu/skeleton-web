@@ -3,6 +3,12 @@ A skeleton web project.
 Idea is to introduce a layout and structure that could be used along
 with any web-app (built with java/clojure/nancyfx)
 
+
+##Tasks
+
+* npm test
+* npm start
+
 ##Tools:
 
 * ES6
@@ -11,11 +17,12 @@ with any web-app (built with java/clojure/nancyfx)
 * standard & gulp-standard for javascript lint
 * mocha w/chai for tests
 * Karma for running tests
+* connect for live-reload and development setup
 
 ##Todo:
 
-* gulp tasks for karma
+* javascript build setup to create distribution of assets
 * segregate unit and e2e test with mocks for js
-* live coding and debug lifecycle
 * sample with fetch api
 * sample with promises and adding chai-as-promised with karma
+* sass setup
