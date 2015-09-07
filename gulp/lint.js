@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 import gulp from 'gulp'
 import cache from 'gulp-cached'
@@ -11,8 +11,8 @@ gulp.task('lintjs', () => {
   .pipe(standard())
   .pipe(standard.reporter('default', {
     breakOnError: true
-  }));
-});
+  }))
+})
 
 // Lint all the things!
-gulp.task('lint', ['lintjs']);
+gulp.task('lint', ['lintjs'])

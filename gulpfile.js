@@ -5,7 +5,7 @@ global.paths = {
   // HTML sources.
   'html': './src/*.html',
   // JS sources.
-  'js': './src/!(jspm_packages)/**/*.js',
+  'js': ['./src/!(jspm_packages)/**/*.js', './gulp/**/*.js'],
   // SASS sources.
   'sass': './src/scss/**/*.scss',
   // Image sources.
