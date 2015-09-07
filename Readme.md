@@ -18,6 +18,7 @@ with any web-app (built with java/clojure/nancyfx)
 * mocha w/chai for tests
 * Karma for running tests
 * connect for live-reload and development setup
+* node-sass for sass, lint w/ sass-lint
 
 ##Todo:
 
