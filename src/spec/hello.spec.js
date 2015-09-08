@@ -1,7 +1,7 @@
 /** move this common global config outside spec */
 /* global expect, describe, it */
 
-import {greeting} from '../lib/hello'
+import { greeting } from '../lib/hello'
 
 describe('Greetings', () => {
   it('should say hello', () => {
