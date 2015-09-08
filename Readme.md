@@ -14,11 +14,11 @@ with any web-app (built with java/clojure/nancyfx)
 * ES6
 * JSPM w/ Babel
 * EditorConfig for code format consistency
-* standard & gulp-standard for javascript lint
-* mocha w/chai for tests
-* Karma for running tests
-* connect for live-reload and development setup
-* node-sass for sass, lint w/ sass-lint
+* Sass: node-sass
+* Javascript Tests: Karma, mocha w/chai
+* Dev Setup: connect for live-reload
+* Code Standards: standard, sass-lint
+* Code Beautify: esformatter, sassbeautify 
 
 ##Todo:
 
@@ -26,4 +26,4 @@ with any web-app (built with java/clojure/nancyfx)
 * segregate unit and e2e test with mocks for js
 * sample with fetch api
 * sample with promises and adding chai-as-promised with karma
-* sass setup
+* docs or styleguide for sass
