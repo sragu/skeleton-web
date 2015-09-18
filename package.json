@@ -28,6 +28,7 @@
     "karma-jspm": "^2.0.1",
     "karma-mocha": "^0.2.0",
     "karma-mocha-reporter": "^1.1.1",
+    "mocha": "^2.3.2",
     "node-sass": "^3.3.2",
     "require-dir": "^0.3.0",
     "sass-lint": "^1.1.0"
