@@ -29,4 +29,4 @@ with any web-app (built with java/clojure/nancyfx)
 
 ##Notes
 
-For Javascript testing, I have two workflow. One runs the domain object tests under mocha, this is a nice way to make sure your domain objects don't end up using dom interaction. Then an test workflow with karma which uses browser so you can test all dom interaction and all other things on a env close to the client.
+For Javascript testing, we have two workflow. One runs the domain object tests under mocha (no browser), this is a nice way to make sure your domain objects don't end up using dom interaction. Then an test workflow with karma which uses browser so you can test all dom interaction and all other things on a env close to the client.
