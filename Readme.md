@@ -3,7 +3,6 @@ A skeleton web project.
 Idea is to introduce a layout and structure that could be used along
 with any web-app (built with java/clojure/nancyfx)
 
-
 ##Tasks
 
 * npm test
@@ -28,6 +27,6 @@ with any web-app (built with java/clojure/nancyfx)
 * sample with promises and adding chai-as-promised with karma
 * docs or styleguide for sass
 
-##Todo:
+##Notes
 
 For Javascript testing, I have two workflow. One runs the domain object tests under mocha, this is a nice way to make sure your domain objects don't end up using dom interaction. Then an test workflow with karma which uses browser so you can test all dom interaction and all other things on a env close to the client.
