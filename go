@@ -1,5 +1,4 @@
 #!/bin/bash
 
-npm install gulp karma-cli -g
-npm install && jspm install
+yarn install && yarn run jspm install
 npm test
